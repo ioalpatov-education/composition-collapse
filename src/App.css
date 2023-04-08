@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: start;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.collapse-btn {
+  margin-bottom: 1rem !important;
+}
+
+.collapse-wrapper {
+  overflow: hidden;
+  transition: height 0.5s ease 0s;
+}
+
+.collapse {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.collapse-wrapper.hidden {
+  height: 0 !important;
+  transition: height 0.5s ease 0s;
+}
